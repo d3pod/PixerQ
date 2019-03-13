@@ -1,0 +1,15 @@
+C:\Users\Diogo Lamego\source\repos\PixerQ\PixerQ\bin\Debug\PixerQ.exe.config
+C:\Users\Diogo Lamego\source\repos\PixerQ\PixerQ\bin\Debug\PixerQ.exe
+C:\Users\Diogo Lamego\source\repos\PixerQ\PixerQ\bin\Debug\PixerQ.pdb
+C:\Users\Diogo Lamego\source\repos\PixerQ\PixerQ\obj\Debug\PixerQ.csprojAssemblyReference.cache
+C:\Users\Diogo Lamego\source\repos\PixerQ\PixerQ\obj\Debug\MainWindow.g.cs
+C:\Users\Diogo Lamego\source\repos\PixerQ\PixerQ\obj\Debug\App.g.cs
+C:\Users\Diogo Lamego\source\repos\PixerQ\PixerQ\obj\Debug\PixerQ_MarkupCompile.cache
+C:\Users\Diogo Lamego\source\repos\PixerQ\PixerQ\obj\Debug\PixerQ_MarkupCompile.lref
+C:\Users\Diogo Lamego\source\repos\PixerQ\PixerQ\obj\Debug\MainWindow.baml
+C:\Users\Diogo Lamego\source\repos\PixerQ\PixerQ\obj\Debug\PixerQ.g.resources
+C:\Users\Diogo Lamego\source\repos\PixerQ\PixerQ\obj\Debug\PixerQ.Properties.Resources.resources
+C:\Users\Diogo Lamego\source\repos\PixerQ\PixerQ\obj\Debug\PixerQ.csproj.GenerateResource.cache
+C:\Users\Diogo Lamego\source\repos\PixerQ\PixerQ\obj\Debug\PixerQ.csproj.CoreCompileInputs.cache
+C:\Users\Diogo Lamego\source\repos\PixerQ\PixerQ\obj\Debug\PixerQ.exe
+C:\Users\Diogo Lamego\source\repos\PixerQ\PixerQ\obj\Debug\PixerQ.pdb
