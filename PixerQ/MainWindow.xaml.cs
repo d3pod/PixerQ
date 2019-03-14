@@ -167,7 +167,7 @@ namespace PixerQ
 
         private void Filter_Nevative_Click(object sender, RoutedEventArgs e)
         {
-
+            //a
         }
     }
 }
