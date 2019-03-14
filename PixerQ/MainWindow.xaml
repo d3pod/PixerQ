@@ -16,6 +16,7 @@
             <MenuItem Header="Filter" FontSize="16" Foreground="White">
                 <MenuItem Header="Black and White" Background="#FF565656" Click="Filter_Black_White_Click"></MenuItem>
                 <MenuItem Header="Sepia" Background="#FF565656" Click="Filter_Sepia_Click"></MenuItem>
+                <MenuItem Header="Negative" Background="#FF565656" Click="Filter_Nevative_Click"></MenuItem>
             </MenuItem>
             <MenuItem Header="Help" FontSize="16" Foreground="White">
                 <MenuItem Header="About Us" Background="#FF565656" BorderBrush="{x:Null}" Foreground="White" Margin="0"/>

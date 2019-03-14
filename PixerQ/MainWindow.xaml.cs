@@ -164,5 +164,10 @@ namespace PixerQ
             img.EndInit();
             ModifiedPicture.Source = img;
         }
+
+        private void Filter_Nevative_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
