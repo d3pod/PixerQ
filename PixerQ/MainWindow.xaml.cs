@@ -25,6 +25,7 @@ namespace PixerQ
     public partial class MainWindow : Window
     {
         string image;
+        Bitmap bmp;
         public MainWindow()
         {
             InitializeComponent();
@@ -53,7 +54,7 @@ namespace PixerQ
 
         private void Filter_Black_White_Click(object sender, RoutedEventArgs e)
         {
-            Bitmap bmp = new Bitmap(image);
+            bmp = new Bitmap(image);
 
             int widht = bmp.Width;
             int height = bmp.Height;
@@ -93,16 +94,16 @@ namespace PixerQ
             saveFile.Filter = "JPeg Image|*.jpg|Bitmap Image|*.bmp|PNG Image|*.png";
             saveFile.DefaultExt = "jpeg";
             saveFile.Title = "Imagem a gravar";
-            saveFile.ShowDialog();
+            //saveFile.ShowDialog();
             if(saveFile.ShowDialog() == true)
             {
-               //ModifiedPicture.
+                bmp.Save(saveFile.FileName);
             }
         }
 
         private void Filter_Sepia_Click(object sender, RoutedEventArgs e)
         {
-            Bitmap bmp = new Bitmap(image);
+            bmp = new Bitmap(image);
 
             int widht = bmp.Width;
             int height = bmp.Height;
@@ -167,7 +168,7 @@ namespace PixerQ
 
         private void Filter_Nevative_Click(object sender, RoutedEventArgs e)
         {
-            //a
+           
         }
     }
 }
