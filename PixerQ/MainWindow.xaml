@@ -24,7 +24,6 @@
         </Menu>
         <Image HorizontalAlignment="Left" Height="400" Margin="16,74,0,0" VerticalAlignment="Top" Width="530" Name="OriginalPicture"/>
         <Image HorizontalAlignment="Left" Height="400" Margin="570,74,0,0" VerticalAlignment="Top" Width="530" Name="ModifiedPicture"/>
-        <ProgressBar HorizontalAlignment="Left" Height="25" Margin="324,540,0,0" Width="439" VerticalAlignment="Top" Visibility="Hidden"/>
-
+        <ProgressBar HorizontalAlignment="Left" Height="30" Margin="668,533,0,0" VerticalAlignment="Top" Width="390" Name="ProgressBar"/>
     </Grid>
 </Window>

@@ -168,7 +168,32 @@ namespace PixerQ
 
         private void Filter_Nevative_Click(object sender, RoutedEventArgs e)
         {
-           
+            bmp = new Bitmap(image);
+            int widht = bmp.Width;
+            int height = bmp.Height;
+            for (int i = 0; i < widht; i++)
+            {
+                for (int j = 0; j < height; j++)
+                {
+                   System.Drawing.Color originalColor = bmp.GetPixel(i, j);
+                    int r = originalColor.R;
+                    int g = originalColor.G;
+                    int b = originalColor.B;
+                    r = 255 - r;
+                    g = 255 - g;
+                    b = 255 - b;
+                    System.Drawing.Color CorEmNegativo = System.Drawing.Color.FromArgb(r, g, b);
+                    bmp.SetPixel(i, j, System.Drawing.Color.FromArgb(r, g, b));
+                }
+            }
+            Stream imageStream = new MemoryStream();
+            bmp.Save(imageStream, ImageFormat.Bmp);
+            BitmapImage img = new BitmapImage();
+            img.BeginInit();
+            imageStream.Seek(0, SeekOrigin.Begin);
+            img.StreamSource = imageStream;
+            img.EndInit();
+            ModifiedPicture.Source = img;
         }
     }
 }
